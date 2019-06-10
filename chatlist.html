@@ -117,8 +117,9 @@
 					headers:{'Content-Type':'application/json'},	              
 					success:function(data){
 						//服务器返回响应
-						console.log(JSON.stringify(data.data))
 						if (data.status == 200) {
+							
+							console.log(JSON.stringify(data.data))
 							var friendRequestList = data.data;
 							
 							var ul_friend_request_list = document.getElementById("ul_friend_request_list");
@@ -147,7 +148,7 @@
 				});
 			}
 			
-				// 操作好友请求  operType:0忽略，1通过
+			// 操作好友请求  operType:0忽略，1通过
 			function operatorFriendRequest(userId, friendId, operType) {
 				mui.ajax(app.serverUrl + "/u/operFriendRequest?acceptUserId=" + userId
 												+ "&sendUserId=" + friendId

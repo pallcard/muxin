@@ -287,7 +287,10 @@
 			},
 			"contact.html": {
 				"resources": [
-					"css/mui.min.css"
+					"css/mui.min.css",
+					"css/mui.indexedlist.css",
+					"js/mui.indexedlist.js",
+					"js/nickname.js"
 				],
 				"refer": [],
 				"priority": 0
