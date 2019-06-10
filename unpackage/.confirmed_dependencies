@@ -1,44 +1,103 @@
 {
-  "index.html": {
-    "resources": [
-      "js/mui.min.js",
-      "css/mui.min.css",
-      "css/header.css",
-      "fonts/mui.ttf",
-      "chatlist.html"
-    ],
-    "refer": [
-      "chatlist.html",
-      "contact.html",
-      "me.html",
-      "discover.html"
-    ]
-  },
-  "chatlist.html": {
-    "resources": [
-      "css/mui.min.css"
-    ],
-    "refer": []
-  },
-  "login.html": {
-    "resources": [
-      "js/mui.min.js",
-      "js/app.js",
-      "css/registLogin/util.css",
-      "css/registLogin/main.css",
-      "css/registLogin/arrow.jpg",
-      "login.html"
-    ],
-    "refer": [
-      "login.html",
-      "index.html"
-    ]
-  },
-  "me.html": {
-    "resources": [
-      "css/mui.min.css",
-      "image/qrcode.png",
-      "image/face-default-cat.png"
-    ]
-  }
+	"index.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"css/header.css",
+			"fonts/mui.ttf",
+			"chatlist.html"
+		],
+		"refer": [
+			"chatlist.html",
+			"contact.html",
+			"me.html",
+			"discover.html"
+		]
+	},
+	"chatlist.html": {
+		"resources": [
+			"css/mui.min.css"
+		],
+		"refer": []
+	},
+	"login.html": {
+		"resources": [
+			"js/mui.min.js",
+			"js/app.js",
+			"css/registLogin/util.css",
+			"css/registLogin/main.css",
+			"css/registLogin/arrow.jpg",
+			"login.html"
+		],
+		"refer": [
+			"login.html",
+			"index.html"
+		]
+	},
+	"me.html": {
+		"resources": [
+			"css/mui.min.css",
+			"image/qrcode.png",
+			"image/face-default-cat.png",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"js/app.js"
+		],
+		"refer": [
+			"myface.html",
+			"mynickname.html",
+			"myQRCode.html",
+			"login.html"
+		]
+	},
+	"myface.html": {
+		"resources": [
+			"css/mui.min.css",
+			"css/header.css",
+			"js/app.js",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"image/face-default-cat.png"
+		],
+		"refer": [
+			"plugin/v3.1.6/myface-uploader.html"
+		]
+	},
+	"plugin/v3.1.6/myface-uploader.html": {
+		"resources": [
+			"image/upload.png",
+			"plugin/v3.1.6/css/cropper.css",
+			"plugin/v3.1.6/css/main.css",
+			"css/mui.min.css",
+			"plugin/v3.1.6/js/cropper.js",
+			"css/header.css",
+			"js/app.js",
+			"js/mui.min.js",
+			"fonts/mui.ttf"
+		]
+	},
+	"mynickname.html": {
+		"resources": [
+			"js/app.js",
+			"css/header.css",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css"
+		]
+	},
+	"contact.html": {
+		"resources": [
+			"css/mui.min.css"
+		]
+	},
+	"myQRCode.html": {
+		"resources": [
+			"js/mui.js",
+			"css/mui.css",
+			"image/download.png",
+			"css/header.css",
+			"js/app.js",
+			"fonts/mui.ttf"
+		]
+	}
 }

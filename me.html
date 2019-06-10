@@ -30,7 +30,7 @@
 		            	<span id="span_nickname" class="mui-pull-right" 
 		            			style="color: gray;font-size: 14px;"></span>
 		                <div class="mui-media-body">
-		                    昵称
+		                    	昵称
 		                </div>
 		            </a>
 		        </li>
@@ -39,7 +39,7 @@
 		            	<span id="span_username" class="mui-pull-right" 
 		            			style="color: gray;font-size: 14px;"></span>
 		                <div class="mui-media-body">
-		                    账号
+		                    	账号
 		                </div>
 		            </a>
 		        </li>
@@ -50,7 +50,7 @@
 		                <img class="mui-media-object mui-pull-right" 
 		                	src="image/qrcode.png" style="max-width: 20px;height: 20px;">
 		                <div class="mui-media-body">
-		                    我的二维码
+		                    	我的二维码
 		                </div>
 		            </a>
 		        </li>
@@ -63,13 +63,14 @@
 		    		style="text-align: center;">
 		            <a id="link_logout" href="javascript:;">
 		                <div class="mui-media-body">
-		                    退出登录
+		                    	退出登录
 		                </div>
 		            </a>
 		        </li>
 		    </ul>
 		</div>
 		
+		<script src="js/app.js"></script>
 		<script src="js/mui.min.js"></script>
 		<script type="text/javascript">
 			mui.init()
@@ -86,6 +87,28 @@
 					mui.openWindow("myface.html", "myface.html");
 				});
 				
+				// 页面跳转，修改昵称
+				var link_nickname = document.getElementById("link_nickname");
+				link_nickname.addEventListener("tap", function() {
+					mui.openWindow("mynickname.html", "mynickname.html");
+				});
+				
+				// 查看我的二维码
+				var link_my_qrcode = document.getElementById("link_my_qrcode");
+				link_my_qrcode.addEventListener("tap", function(){
+					mui.openWindow({
+						url: "myQRCode.html", 
+						id: "myQRCode.html", 
+						styles: {}
+					})
+				});
+				
+				// 用户退出
+				var link_logout = document.getElementById("link_logout");
+				link_logout.addEventListener("tap", function(){
+					app.userLogout();
+					mui.openWindow("login.html", "login.html");
+				});
 			})
 			
 			function refreshUserInfo() {

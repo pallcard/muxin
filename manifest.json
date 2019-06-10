@@ -232,17 +232,81 @@
 				"resources": [
 					"css/mui.min.css",
 					"image/qrcode.png",
+					"image/face-default-cat.png",
+					"js/mui.min.js",
+					"fonts/mui.ttf",
+					"js/app.js"
+				],
+				"refer": [
+					"myface.html",
+					"mynickname.html",
+					"myQRCode.html",
+					"login.html"
+				],
+				"priority": 0
+			},
+			"myface.html": {
+				"resources": [
+					"css/mui.min.css",
+					"css/header.css",
+					"js/app.js",
+					"js/mui.min.js",
+					"fonts/mui.ttf",
 					"image/face-default-cat.png"
+				],
+				"refer": [
+					"plugin/v3.1.6/myface-uploader.html"
+				],
+				"priority": 0
+			},
+			"plugin/v3.1.6/myface-uploader.html": {
+				"resources": [
+					"image/upload.png",
+					"plugin/v3.1.6/css/cropper.css",
+					"plugin/v3.1.6/css/main.css",
+					"css/mui.min.css",
+					"plugin/v3.1.6/js/cropper.js",
+					"css/header.css",
+					"js/app.js",
+					"js/mui.min.js",
+					"fonts/mui.ttf"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"mynickname.html": {
+				"resources": [
+					"js/app.js",
+					"css/header.css",
+					"js/mui.min.js",
+					"fonts/mui.ttf",
+					"css/mui.min.css"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"contact.html": {
+				"resources": [
+					"css/mui.min.css"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"myQRCode.html": {
+				"resources": [
+					"js/mui.js",
+					"css/mui.css",
+					"image/download.png",
+					"css/header.css",
+					"js/app.js",
+					"fonts/mui.ttf"
 				],
 				"refer": [],
 				"priority": 0
 			}
 		},
 		"idle": {
-			"resources": [
-				"js/mui.js",
-				"css/mui.css"
-			]
+			"resources": []
 		}
 	}
 }
