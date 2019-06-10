@@ -108,7 +108,8 @@
 			"image/addfriends.png"
 		],
 		"refer": [
-			"searchFriends.html"
+			"searchFriends.html",
+			"scanme.html"
 		]
 	},
 	"searchFriends.html": {
@@ -127,6 +128,15 @@
 		"resources": [
 			"js/mui.js",
 			"css/mui.css"
+		]
+	},
+	"scanme.html": {
+		"resources": [
+			"css/mui.css",
+			"js/app.js",
+			"fonts/mui.ttf",
+			"js/mui.js",
+			"css/header.css"
 		]
 	}
 }
