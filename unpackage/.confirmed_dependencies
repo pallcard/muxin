@@ -1,165 +1,167 @@
 {
-	"index.html": {
-		"resources": [
-			"js/mui.min.js",
-			"css/mui.min.css",
-			"css/header.css",
-			"fonts/mui.ttf",
-			"chatlist.html"
-		],
-		"refer": [
-			"chatlist.html",
-			"contact.html",
-			"me.html",
-			"discover.html"
-		]
-	},
-	"chatlist.html": {
-		"resources": [
-			"css/mui.min.css"
-		],
-		"refer": []
-	},
-	"login.html": {
-		"resources": [
-			"js/mui.min.js",
-			"js/app.js",
-			"css/registLogin/util.css",
-			"css/registLogin/main.css",
-			"css/registLogin/arrow.jpg",
-			"login.html"
-		],
-		"refer": [
-			"login.html",
-			"index.html"
-		]
-	},
-	"me.html": {
-		"resources": [
-			"css/mui.min.css",
-			"image/qrcode.png",
-			"image/face-default-cat.png",
-			"js/mui.min.js",
-			"fonts/mui.ttf",
-			"js/app.js"
-		],
-		"refer": [
-			"myface.html",
-			"mynickname.html",
-			"myQRCode.html",
-			"login.html"
-		]
-	},
-	"myface.html": {
-		"resources": [
-			"css/mui.min.css",
-			"css/header.css",
-			"js/app.js",
-			"js/mui.min.js",
-			"fonts/mui.ttf",
-			"image/face-default-cat.png"
-		],
-		"refer": [
-			"plugin/v3.1.6/myface-uploader.html"
-		]
-	},
-	"plugin/v3.1.6/myface-uploader.html": {
-		"resources": [
-			"image/upload.png",
-			"plugin/v3.1.6/css/cropper.css",
-			"plugin/v3.1.6/css/main.css",
-			"css/mui.min.css",
-			"plugin/v3.1.6/js/cropper.js",
-			"css/header.css",
-			"js/app.js",
-			"js/mui.min.js",
-			"fonts/mui.ttf"
-		]
-	},
-	"mynickname.html": {
-		"resources": [
-			"js/app.js",
-			"css/header.css",
-			"js/mui.min.js",
-			"fonts/mui.ttf",
-			"css/mui.min.css"
-		]
-	},
-	"contact.html": {
-		"resources": [
-			"css/mui.min.css",
-			"css/mui.indexedlist.css",
-			"js/mui.indexedlist.js",
-			"js/nickname.js",
-			"fonts/mui.ttf"
-		],
-		"refer": [
-			"chatting.html"
-		]
-	},
-	"myQRCode.html": {
-		"resources": [
-			"js/mui.js",
-			"css/mui.css",
-			"image/download.png",
-			"css/header.css",
-			"js/app.js",
-			"fonts/mui.ttf"
-		]
-	},
-	"discover.html": {
-		"resources": [
-			"image/friends.png",
-			"css/mui.min.css",
-			"image/scanscan.png",
-			"image/addfriends.png"
-		],
-		"refer": [
-			"searchFriends.html",
-			"scanme.html"
-		]
-	},
-	"searchFriends.html": {
-		"resources": [
-			"css/mui.min.css",
-			"css/header.css",
-			"js/app.js",
-			"js/mui.min.js",
-			"fonts/mui.ttf"
-		],
-		"refer": [
-			"searchFriendsResult.html"
-		]
-	},
-	"searchFriendsResult.html": {
-		"resources": [
-			"js/mui.js",
-			"css/mui.css",
-			"css/header.css",
-			"js/app.js",
-			"fonts/mui.ttf"
-		]
-	},
-	"scanme.html": {
-		"resources": [
-			"css/mui.css",
-			"js/app.js",
-			"fonts/mui.ttf",
-			"js/mui.js",
-			"css/header.css"
-		],
-		"refer": [
-			"searchFriendsResult.html"
-		]
-	},
-	"chatting.html": {
-		"resources": [
-			"css/mui.min.css",
-			"css/chat.css",
-			"css/header.css",
-			"js/app.js",
-			"js/mui.min.js",
-			"fonts/mui.ttf"
-		]
-	}
+  "index.html": {
+    "resources": [
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "css/header.css",
+      "fonts/mui.ttf",
+      "chatlist.html"
+    ],
+    "refer": [
+      "chatlist.html",
+      "contact.html",
+      "me.html",
+      "discover.html"
+    ]
+  },
+  "chatlist.html": {
+    "resources": [
+      "css/mui.min.css"
+    ],
+    "refer": [
+      "chatting.html"
+    ]
+  },
+  "login.html": {
+    "resources": [
+      "js/mui.min.js",
+      "js/app.js",
+      "css/registLogin/util.css",
+      "css/registLogin/main.css",
+      "css/registLogin/arrow.jpg",
+      "login.html"
+    ],
+    "refer": [
+      "login.html",
+      "index.html"
+    ]
+  },
+  "me.html": {
+    "resources": [
+      "css/mui.min.css",
+      "image/qrcode.png",
+      "image/face-default-cat.png",
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "js/app.js"
+    ],
+    "refer": [
+      "myface.html",
+      "mynickname.html",
+      "myQRCode.html",
+      "login.html"
+    ]
+  },
+  "myface.html": {
+    "resources": [
+      "css/mui.min.css",
+      "css/header.css",
+      "js/app.js",
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "image/face-default-cat.png"
+    ],
+    "refer": [
+      "plugin/v3.1.6/myface-uploader.html"
+    ]
+  },
+  "plugin/v3.1.6/myface-uploader.html": {
+    "resources": [
+      "image/upload.png",
+      "plugin/v3.1.6/css/cropper.css",
+      "plugin/v3.1.6/css/main.css",
+      "css/mui.min.css",
+      "plugin/v3.1.6/js/cropper.js",
+      "css/header.css",
+      "js/app.js",
+      "js/mui.min.js",
+      "fonts/mui.ttf"
+    ]
+  },
+  "mynickname.html": {
+    "resources": [
+      "js/app.js",
+      "css/header.css",
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css"
+    ]
+  },
+  "contact.html": {
+    "resources": [
+      "css/mui.min.css",
+      "css/mui.indexedlist.css",
+      "js/mui.indexedlist.js",
+      "js/nickname.js",
+      "fonts/mui.ttf"
+    ],
+    "refer": [
+      "chatting.html"
+    ]
+  },
+  "myQRCode.html": {
+    "resources": [
+      "js/mui.js",
+      "css/mui.css",
+      "image/download.png",
+      "css/header.css",
+      "js/app.js",
+      "fonts/mui.ttf"
+    ]
+  },
+  "discover.html": {
+    "resources": [
+      "image/friends.png",
+      "css/mui.min.css",
+      "image/scanscan.png",
+      "image/addfriends.png"
+    ],
+    "refer": [
+      "searchFriends.html",
+      "scanme.html"
+    ]
+  },
+  "searchFriends.html": {
+    "resources": [
+      "css/mui.min.css",
+      "css/header.css",
+      "js/app.js",
+      "js/mui.min.js",
+      "fonts/mui.ttf"
+    ],
+    "refer": [
+      "searchFriendsResult.html"
+    ]
+  },
+  "searchFriendsResult.html": {
+    "resources": [
+      "js/mui.js",
+      "css/mui.css",
+      "css/header.css",
+      "js/app.js",
+      "fonts/mui.ttf"
+    ]
+  },
+  "scanme.html": {
+    "resources": [
+      "css/mui.css",
+      "js/app.js",
+      "fonts/mui.ttf",
+      "js/mui.js",
+      "css/header.css"
+    ],
+    "refer": [
+      "searchFriendsResult.html"
+    ]
+  },
+  "chatting.html": {
+    "resources": [
+      "css/mui.min.css",
+      "css/chat.css",
+      "css/header.css",
+      "js/app.js",
+      "js/mui.min.js",
+      "fonts/mui.ttf"
+    ]
+  }
 }
