@@ -290,9 +290,12 @@
 					"css/mui.min.css",
 					"css/mui.indexedlist.css",
 					"js/mui.indexedlist.js",
-					"js/nickname.js"
+					"js/nickname.js",
+					"fonts/mui.ttf"
 				],
-				"refer": [],
+				"refer": [
+					"chatting.html"
+				],
 				"priority": 0
 			},
 			"myQRCode.html": {
@@ -336,7 +339,10 @@
 			"searchFriendsResult.html": {
 				"resources": [
 					"js/mui.js",
-					"css/mui.css"
+					"css/mui.css",
+					"css/header.css",
+					"js/app.js",
+					"fonts/mui.ttf"
 				],
 				"refer": [],
 				"priority": 0
@@ -348,6 +354,20 @@
 					"fonts/mui.ttf",
 					"js/mui.js",
 					"css/header.css"
+				],
+				"refer": [
+					"searchFriendsResult.html"
+				],
+				"priority": 0
+			},
+			"chatting.html": {
+				"resources": [
+					"css/mui.min.css",
+					"css/chat.css",
+					"css/header.css",
+					"js/app.js",
+					"js/mui.min.js",
+					"fonts/mui.ttf"
 				],
 				"refer": [],
 				"priority": 0

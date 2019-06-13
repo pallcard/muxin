@@ -3,14 +3,16 @@ window.app = {
 	/**
 	 * netty服务后端发布的url地址
 	 */
-	nettyServerUrl: 'ws://192.168.1.3:8088/ws',
-	
+//	nettyServerUrl: 'ws://192.168.43.128:8088/ws',
+	nettyServerUrl: 'ws://192.168.0.198:8088/ws',
+//	nettyServerUrl: 'ws://192.168.0.71:8088/ws',
 	/**
 	 * 后端服务发布的url地址
 	 */
 //	serverUrl: 'http://222.20.38.238:8080',
-	serverUrl: 'http://192.168.43.128:8080',
-	
+	serverUrl: 'http://192.168.0.198:8080',
+//	serverUrl: 'http://192.168.43.128:8080',
+//	serverUrl: 'http://192.168.0.71:8080',
 	/**
 	 * 图片服务器的url地址
 	 */
@@ -296,7 +298,7 @@ window.app = {
 	CHAT: 2, 		// 聊天消息
 	SIGNED: 3, 		// 消息签收
 	KEEPALIVE: 4, 	// 客户端保持心跳
-	PULL_FRIEND:5,	// 重新拉取好友
+	PULL_FRIEND: 5,	// 重新拉取好友
 	
 	/**
 	 * 和后端的 ChatMsg 聊天模型对象保持一致
@@ -316,12 +318,12 @@ window.app = {
 	 * 构建消息 DataContent 模型对象
 	 * @param {Object} action
 	 * @param {Object} chatMsg
-	 * @param {Object} extand
+	 * @param {Object} extend
 	 */
-	DataContent: function(action, chatMsg, extand){
+	DataContent: function(action, chatMsg, extend){
 		this.action = action;
 		this.chatMsg = chatMsg;
-		this.extand = extand;
+		this.extend = extend;
 	},
 	
 	/**
